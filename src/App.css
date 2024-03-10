@@ -1,0 +1,36 @@
+body{
+  background-color: aqua;
+  width:100%;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  display: grid;
+  height:80px;
+  background-color:black;
+  font-size: 20px;
+  color:aqua;
+  width:320px;
+}
+.number{
+  display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items:start;
+width:400px;
+height:400px;
+padding:1px;
+}
+.number > button{
+  width:80px;
+  height:80px;
+  margin:1px;
+  font-size: 20px;
+}
+.number > button:hover {
+  color:aqua;
+  background-color:black;
+}
+.equal{
+  flex-basis: 61%;
+}
