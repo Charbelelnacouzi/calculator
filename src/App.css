@@ -4,13 +4,15 @@ body{
   align-items: center;
   justify-content: center;
 }
-.container{
+.container >input{
   display: grid;
-  height:80px;
+  height:40px;
   background-color:black;
   font-size: 20px;
   color:aqua;
   width:320px;
+  text-align: right;
+  border:none;
 }
 .number{
   display:flex;
@@ -20,8 +22,10 @@ align-items:start;
 width:400px;
 height:400px;
 padding:1px;
+
 }
 .number > button{
+  border:3px solid black;
   width:80px;
   height:80px;
   margin:1px;
